@@ -1,29 +1,30 @@
-# **ETL A LA API DEL BANCO DE MÉXICO** 💻🏦⭐
+# **ETL A LA API DEL BANCO DE MÉXICO y BANCO DEL PERÚ** 💻🏦⭐
 
 ## **Método usado** 📡
 
-En Python, se utiliza el método `request()` para hacer solicitudes a un servidor web y obtener respuestas. Toma varios parámetros, los más importantes son los siguientes:
+En Python, se utiliza el método `request()` para hacer solicitudes a un servidor web y obtener respuestas. Toma varios parámetros, entre los más importantes se encuentran:
 
-- `method`: este parámetro especifica el método HTTP que se utilizará para la solicitud. Los métodos más comunes son GET, POST, PUT, DELETE, HEAD, OPTIONS, etc.
+- `method`: Este parámetro especifica el método HTTP que se utilizará para la solicitud. Los métodos más comunes son GET, POST, PUT, DELETE, HEAD, OPTIONS, etc.
 
-- `url`: este parámetro especifica la dirección URL del recurso que se va a solicitar.
+- `url`: Este parámetro especifica la dirección URL del recurso que se va a solicitar.
 
-- `params`: este parámetro es opcional y se utiliza para especificar los parámetros de la cadena de consulta de la URL.
+- `params`: Este parámetro es opcional y se utiliza para especificar los parámetros de la cadena de consulta de la URL.
 
-- `data`: este parámetro es opcional y se utiliza para enviar datos en la solicitud, como formularios HTML o JSON.
+- `data`: Este parámetro es opcional y se utiliza para enviar datos en la solicitud, como formularios HTML o JSON.
 
-- `headers`: este parámetro es opcional y se utiliza para enviar encabezados HTTP personalizados en la solicitud.
+- `headers`: Este parámetro es opcional y se utiliza para enviar encabezados HTTP personalizados en la solicitud.
 
-- `cookies`: este parámetro es opcional y se utiliza para enviar cookies en la solicitud.
+- `cookies`: Este parámetro es opcional y se utiliza para enviar cookies en la solicitud.
 
-- `auth`: este parámetro es opcional y se utiliza para enviar credenciales de autenticación en la solicitud.
+- `auth`: Este parámetro es opcional y se utiliza para enviar credenciales de autenticación en la solicitud.
 
-- `timeout`: este parámetro es opcional y se utiliza para especificar el tiempo máximo de espera para la respuesta del servidor.
+- `timeout`: Este parámetro es opcional y se utiliza para especificar el tiempo máximo de espera para la respuesta del servidor.
 
-- `allow_redirects`: este parámetro es opcional y se utiliza para habilitar o deshabilitar la redirección automática de la solicitud.
+- `allow_redirects`: Este parámetro es opcional y se utiliza para habilitar o deshabilitar la redirección automática de la solicitud.
 
 Estos son algunos de los parámetros más comunes que se utilizan con la función `request()` de Python. Hay otros parámetros disponibles que se pueden utilizar según sea necesario para satisfacer requisitos específicos.
 
+# BANCO DE MÉXICO 🇲🇽
 ## **Información relevante:** 🔍
 
 **Catálogo de series**
@@ -41,16 +42,24 @@ Estos son algunos de los parámetros más comunes que se utilizan con la funció
 Datos del Banco de México.
 
 Frecuencia diaria:
-- Base monetaria pronosticada y observada:
-    - Pronóstico SF44042 (miles de millones de pesos) 
-    - Observado SF44043 (miles de millones de pesos).
-    - Desviación SF44044 (miles de millones de pesos)
+- Tipos de cambio diarios
+    - Tipo de Cambio Cierre de Jornada SF343410 (Pesos por Dólar) 
+    - Serie histórica del tipo de cambio Tipo de cambio peso dólar desde 1954 SF63528 (Pesos por Dólar).
 
-Frecuencia diaria:
-- Base monetaria, circulante y depósitos:
-    - Base monetaria SF43695 (millones de pesos)
-    - Billetes y monedas en circulación SF43702 (millones de pesos)
-    - Depósitos bancarios en cuenta corriente SF43696 (millones de pesos)
+
+# BANCO DEl PERÚ 🇵🇪:
+## **Información relevante:** 🔍
+
+**Catálogo de series**
+🔗 [Catálogo de series](https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias)
+
+**Frecuencia diaria:**
+- Tipos de cambio diarios
+	- PD04645PD	TC Cierre Compra - 01:30 PM (S/ por US$)	
+	- PD04646PD	TC Cierre Venta - 01:30 PM (S/ por US$)	
+	- PD04647PD	TC Euro (S/ por Euro) - Compra	
+	- PD04648PD	TC Euro (S/ por Euro) - Venta
+
 
 ## **Información Adicional** ℹ️
 
